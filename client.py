@@ -67,7 +67,7 @@ def main():
     p = Player(startPos[0],startPos[1],100,100,(0,255,0))
     p2 = Player(0,0,100,100,(255,0,0))
     clock = pygame.time.Clock()
-
+ 
     while run:
         clock.tick(60)
         p2Pos = read_pos(n.send(make_pos((p.x, p.y))))
